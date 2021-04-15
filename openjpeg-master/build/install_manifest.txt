@@ -1,0 +1,11 @@
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/openjpeg-2.3/OpenJPEGTargets.cmake
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/openjpeg-2.3/OpenJPEGTargets-release.cmake
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/openjpeg-2.3/OpenJPEGConfig.cmake
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/pkgconfig/libopenjp2.pc
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/include/openjpeg-2.3/opj_config.h
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/libopenjp2.so.2.3.1
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/libopenjp2.so.7
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/libopenjp2.so
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/lib/libopenjp2.a
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/include/openjpeg-2.3/openjpeg.h
+/home/gwi/桌面/passport/QiLin_ARM_aarch64/install/include/openjpeg-2.3/opj_stdint.h

@@ -1,0 +1,902 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90d57/fast && /usr/bin/make -f CMakeFiles/cmTC_90d57.dir/build.make CMakeFiles/cmTC_90d57.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90d57.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_90d57.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_90d57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d57.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_90d57.dir/src.cxx.o  -o cmTC_90d57 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba954/fast && /usr/bin/make -f CMakeFiles/cmTC_ba954.dir/build.make CMakeFiles/cmTC_ba954.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba954.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_ba954.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_ba954
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba954.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_ba954.dir/src.cxx.o  -o cmTC_ba954 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a993/fast && /usr/bin/make -f CMakeFiles/cmTC_2a993.dir/build.make CMakeFiles/cmTC_2a993.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a993.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_2a993.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_2a993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a993.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_2a993.dir/src.c.o  -o cmTC_2a993 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5ba1/fast && /usr/bin/make -f CMakeFiles/cmTC_b5ba1.dir/build.make CMakeFiles/cmTC_b5ba1.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5ba1.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_b5ba1.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_b5ba1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ba1.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_b5ba1.dir/src.c.o  -o cmTC_b5ba1 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9e42f/fast && /usr/bin/make -f CMakeFiles/cmTC_9e42f.dir/build.make CMakeFiles/cmTC_9e42f.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e42f.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_9e42f.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_9e42f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e42f.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_9e42f.dir/src.c.o  -o cmTC_9e42f 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91c61/fast && /usr/bin/make -f CMakeFiles/cmTC_91c61.dir/build.make CMakeFiles/cmTC_91c61.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91c61.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_91c61.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_91c61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c61.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_91c61.dir/src.cxx.o  -o cmTC_91c61 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8453/fast && /usr/bin/make -f CMakeFiles/cmTC_d8453.dir/build.make CMakeFiles/cmTC_d8453.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8453.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d8453.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_d8453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8453.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_d8453.dir/src.c.o  -o cmTC_d8453 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10564/fast && /usr/bin/make -f CMakeFiles/cmTC_10564.dir/build.make CMakeFiles/cmTC_10564.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10564.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_10564.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_10564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10564.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_10564.dir/src.c.o  -o cmTC_10564 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7cbb7/fast && /usr/bin/make -f CMakeFiles/cmTC_7cbb7.dir/build.make CMakeFiles/cmTC_7cbb7.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cbb7.dir/OFF64_T.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7cbb7.dir/OFF64_T.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function)
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_7cbb7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7cbb7.dir/OFF64_T.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7cbb7.dir/OFF64_T.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7cbb7/fast' failed
+make: *** [cmTC_7cbb7/fast] Error 2
+
+
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5acf2/fast && /usr/bin/make -f CMakeFiles/cmTC_5acf2.dir/build.make CMakeFiles/cmTC_5acf2.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5acf2.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_5acf2.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_5acf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5acf2.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5acf2.dir/src.c.o  -o cmTC_5acf2 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa860/fast && /usr/bin/make -f CMakeFiles/cmTC_aa860.dir/build.make CMakeFiles/cmTC_aa860.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa860.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shift-negative-value -o CMakeFiles/cmTC_aa860.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’
+Linking C executable cmTC_aa860
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa860.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_aa860.dir/src.c.o  -o cmTC_aa860 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c675/fast && /usr/bin/make -f CMakeFiles/cmTC_1c675.dir/build.make CMakeFiles/cmTC_1c675.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c675.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-fallthrough -o CMakeFiles/cmTC_1c675.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking C executable cmTC_1c675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c675.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_1c675.dir/src.c.o  -o cmTC_1c675 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af6e3/fast && /usr/bin/make -f CMakeFiles/cmTC_af6e3.dir/build.make CMakeFiles/cmTC_af6e3.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af6e3.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_af6e3.dir/CheckIncludeFile.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: 没有那个文件或目录
+compilation terminated.
+CMakeFiles/cmTC_af6e3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_af6e3.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_af6e3.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_af6e3/fast' failed
+make: *** [cmTC_af6e3/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_207b9/fast && /usr/bin/make -f CMakeFiles/cmTC_207b9.dir/build.make CMakeFiles/cmTC_207b9.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_207b9.dir/int8.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_207b9.dir/int8.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_207b9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_207b9.dir/int8.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_207b9.dir/int8.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_207b9/fast' failed
+make: *** [cmTC_207b9/fast] Error 2
+
+
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_759fd/fast && /usr/bin/make -f CMakeFiles/cmTC_759fd.dir/build.make CMakeFiles/cmTC_759fd.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_759fd.dir/int16.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_759fd.dir/int16.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_759fd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_759fd.dir/int16.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_759fd.dir/int16.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_759fd/fast' failed
+make: *** [cmTC_759fd/fast] Error 2
+
+
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1a24/fast && /usr/bin/make -f CMakeFiles/cmTC_d1a24.dir/build.make CMakeFiles/cmTC_d1a24.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1a24.dir/int32.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d1a24.dir/int32.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_d1a24.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d1a24.dir/int32.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d1a24.dir/int32.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d1a24/fast' failed
+make: *** [cmTC_d1a24/fast] Error 2
+
+
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9ef5/fast && /usr/bin/make -f CMakeFiles/cmTC_d9ef5.dir/build.make CMakeFiles/cmTC_d9ef5.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9ef5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d9ef5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_d9ef5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9ef5.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d9ef5.dir/CheckFunctionExists.c.o  -o cmTC_d9ef5 
+CMakeFiles/cmTC_d9ef5.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x10)：对‘floor’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d9ef5.dir/build.make:86: recipe for target 'cmTC_d9ef5' failed
+make[1]: *** [cmTC_d9ef5] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d9ef5/fast' failed
+make: *** [cmTC_d9ef5/fast] Error 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_647eb/fast && /usr/bin/make -f CMakeFiles/cmTC_647eb.dir/build.make CMakeFiles/cmTC_647eb.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_647eb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_647eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_647eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_647eb.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_647eb.dir/CheckFunctionExists.c.o  -o cmTC_647eb 
+CMakeFiles/cmTC_647eb.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x10)：对‘pow’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_647eb.dir/build.make:86: recipe for target 'cmTC_647eb' failed
+make[1]: *** [cmTC_647eb] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_647eb/fast' failed
+make: *** [cmTC_647eb/fast] Error 2
+
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0dde/fast && /usr/bin/make -f CMakeFiles/cmTC_b0dde.dir/build.make CMakeFiles/cmTC_b0dde.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0dde.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b0dde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_b0dde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0dde.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b0dde.dir/CheckFunctionExists.c.o  -o cmTC_b0dde 
+CMakeFiles/cmTC_b0dde.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x10)：对‘sqrt’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b0dde.dir/build.make:86: recipe for target 'cmTC_b0dde' failed
+make[1]: *** [cmTC_b0dde] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b0dde/fast' failed
+make: *** [cmTC_b0dde/fast] Error 2
+
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_523b4/fast && /usr/bin/make -f CMakeFiles/cmTC_523b4.dir/build.make CMakeFiles/cmTC_523b4.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_523b4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_523b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_523b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_523b4.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_523b4.dir/CheckFunctionExists.c.o  -o cmTC_523b4 
+CMakeFiles/cmTC_523b4.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x10)：对‘setmode’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_523b4.dir/build.make:86: recipe for target 'cmTC_523b4' failed
+make[1]: *** [cmTC_523b4] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_523b4/fast' failed
+make: *** [cmTC_523b4/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56205/fast && /usr/bin/make -f CMakeFiles/cmTC_56205.dir/build.make CMakeFiles/cmTC_56205.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56205.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-misleading-indentation -o CMakeFiles/cmTC_56205.dir/src.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’
+Linking C executable cmTC_56205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56205.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_56205.dir/src.c.o  -o cmTC_56205 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a6dd/fast && /usr/bin/make -f CMakeFiles/cmTC_8a6dd.dir/build.make CMakeFiles/cmTC_8a6dd.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a6dd.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_8a6dd.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_8a6dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a6dd.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8a6dd.dir/src.cxx.o  -o cmTC_8a6dd 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74917/fast && /usr/bin/make -f CMakeFiles/cmTC_74917.dir/build.make CMakeFiles/cmTC_74917.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74917.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_74917.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74917
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74917.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_74917.dir/CheckFunctionExists.c.o  -o cmTC_74917 
+CMakeFiles/cmTC_74917.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup.main+0x10)：对‘sgemm_’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74917.dir/build.make:86: recipe for target 'cmTC_74917' failed
+make[1]: *** [cmTC_74917] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_74917/fast' failed
+make: *** [cmTC_74917/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11c22/fast && /usr/bin/make -f CMakeFiles/cmTC_11c22.dir/build.make CMakeFiles/cmTC_11c22.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11c22.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_11c22.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_11c22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c22.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_11c22.dir/src.cxx.o  -o cmTC_11c22 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cc1d/fast && /usr/bin/make -f CMakeFiles/cmTC_4cc1d.dir/build.make CMakeFiles/cmTC_4cc1d.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4cc1d.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-unused-const-variable -std=c++11 -o CMakeFiles/cmTC_4cc1d.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
+Linking CXX executable cmTC_4cc1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc1d.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4cc1d.dir/src.cxx.o  -o cmTC_4cc1d 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e617/fast && /usr/bin/make -f CMakeFiles/cmTC_4e617.dir/build.make CMakeFiles/cmTC_4e617.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e617.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_4e617.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_4e617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e617.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4e617.dir/src.cxx.o  -o cmTC_4e617 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b5c6/fast && /usr/bin/make -f CMakeFiles/cmTC_7b5c6.dir/build.make CMakeFiles/cmTC_7b5c6.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b5c6.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_7b5c6.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_7b5c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b5c6.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7b5c6.dir/src.cxx.o  -o cmTC_7b5c6 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_842cd/fast && /usr/bin/make -f CMakeFiles/cmTC_842cd.dir/build.make CMakeFiles/cmTC_842cd.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_842cd.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_842cd.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_842cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_842cd.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_842cd.dir/src.cxx.o  -o cmTC_842cd 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5d07/fast && /usr/bin/make -f CMakeFiles/cmTC_a5d07.dir/build.make CMakeFiles/cmTC_a5d07.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5d07.dir/src.cxx.o
+/usr/bin/g++    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-fallthrough -std=c++11 -o CMakeFiles/cmTC_a5d07.dir/src.cxx.o -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking CXX executable cmTC_a5d07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d07.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a5d07.dir/src.cxx.o  -o cmTC_a5d07 
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36ed9/fast && /usr/bin/make -f CMakeFiles/cmTC_36ed9.dir/build.make CMakeFiles/cmTC_36ed9.dir/build
+make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36ed9.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_36ed9.dir/CheckIncludeFile.c.o   -c /home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: 没有那个文件或目录
+compilation terminated.
+CMakeFiles/cmTC_36ed9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_36ed9.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_36ed9.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_ARM_aarch64_IR/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_36ed9/fast' failed
+make: *** [cmTC_36ed9/fast] Error 2
+
+
+

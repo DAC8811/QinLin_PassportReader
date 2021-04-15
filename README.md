@@ -1,0 +1,8 @@
+# QinLin_PassportReader
+麒麟系统上的证照仪上位机系统(长城公司)
+## 说明
+- 该库中保存了opencv、glog、libusb、openjpeg、openssl等第三方库。第三方库均是直接使用官方提供的源码按照官方教程直接编译的，所有编译好的库文件均保存在install文件夹中。如果需要重新编译某一部分第三方库，可以在对应的文件夹目录下寻找已经编写好的sh脚本文件直接执行(有部分是在对应文件夹目录的build文件夹内)
+- PassportReader文件夹中保存的是主要的工程文件，其中PassportAPI文件夹是核心代码，其他文件夹均为被调用的底层库，若需要编译工程文件，则可以直接执行PassportReader/build/project_build.sh
+> 当编译工程文件时，所有底层库均会自动编译，但cardRecog文件夹中的OCR模块不会被编译，需要在cardRecog/build文件夹中额外使用cmake以及make编译该模块，再将生成的文件copy至install文件夹中
+- demo_WI_A文件夹中是用于测试和交付客户的代码，同时包含了库运行时所需要的一些字符模板文件
+

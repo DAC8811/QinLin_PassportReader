@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibLED.a  CMakeFiles/libLED.dir/src/USBLED.cpp.o CMakeFiles/libLED.dir/src/USB_HAL.cpp.o CMakeFiles/libLED.dir/src/rsaAPI.cpp.o
+/usr/bin/ranlib liblibLED.a

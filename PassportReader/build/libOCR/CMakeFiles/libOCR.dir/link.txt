@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibOCR.a  CMakeFiles/libOCR.dir/src/findMrz.cpp.o CMakeFiles/libOCR.dir/src/mrz.cpp.o CMakeFiles/libOCR.dir/src/utils.cpp.o
+/usr/bin/ranlib liblibOCR.a

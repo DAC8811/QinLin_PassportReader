@@ -1,0 +1,2 @@
+/home/gwi/桌面/passport/QiLin_WI_A/install/lib/libgetData.so
+/home/gwi/桌面/passport/QiLin_WI_A/install/include/getData.h

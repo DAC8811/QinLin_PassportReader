@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibOCRNew.a  CMakeFiles/libOCRNew.dir/src/findMrz.cpp.o CMakeFiles/libOCRNew.dir/src/mrz.cpp.o CMakeFiles/libOCRNew.dir/src/rotate.cpp.o CMakeFiles/libOCRNew.dir/src/utils.cpp.o
+/usr/bin/ranlib liblibOCRNew.a
