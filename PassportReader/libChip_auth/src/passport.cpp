@@ -167,7 +167,8 @@ int IDCardRead(string &IDInfo,
     return ret;
 }
 
-int IDcardReadWithFinger(unsigned char *sInfo, unsigned int * sLength, unsigned char *cpPhoto, unsigned int *ipLength, unsigned char *cpFinger, unsigned int *ipFLength){
+int IDcardReadWithFinger(unsigned char *sInfo, unsigned int * sLength, unsigned char *cpPhoto, unsigned int *ipLength, unsigned char *cpFinger, unsigned int *ipFLength,
+                         unsigned char* cpType){
     char ret = false;
     CChipReader gChipReader;
 
@@ -176,6 +177,7 @@ int IDcardReadWithFinger(unsigned char *sInfo, unsigned int * sLength, unsigned 
     ret = gChipReader.ReadIDInfo(sInfo, sLength, cpPhoto, ipLength, cpFinger, ipFLength);
     if (ret == true) {
         LOGI("Read IDCard success");
+        memcpy(cpType,(void*)(sInfo + 248),2);
     } else{
         LOGE("Read IDCard failed");
     }

@@ -36,4 +36,6 @@ int AuthDev();
 int ReadChipUID(unsigned char *chipUID);
 int ReadHardwareVersion(std::string &version);
 
+int IDcardReadWithFinger(unsigned char *sInfo, unsigned int * sLength, unsigned char *cpPhoto, unsigned int *ipLength, unsigned char *cpFinger, unsigned int *ipFLength,unsigned char* cpType);
+
 #endif //PROJECT_LIBCHIP_H

@@ -68,4 +68,6 @@ string getEChipDG11();
 /******************************************************/
 extern "C" EXPORT_FUN
 const char* getSFZImage();
+extern "C" EXPORT_FUN
+int IDcardReadInfoAndFinger(unsigned char *sInfo, unsigned int * sLength, unsigned char *cpPhoto, unsigned int *ipLength, unsigned char *cpFinger, unsigned int *ipFLength,unsigned char* idType);
 #endif //PASSPORTREADER_GETDATA_H

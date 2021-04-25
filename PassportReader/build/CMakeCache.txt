@@ -36,7 +36,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-5
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-5
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-std=gnu++11 -fexceptions -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden
+CMAKE_CXX_FLAGS:STRING=-O3 -DNDEBUG -ftree-vectorize -fno-lto -std=gnu++11 -fexceptions -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -59,7 +59,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-5
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-5
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING= -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden
+CMAKE_C_FLAGS:STRING= -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -235,9 +235,6 @@ PassportReaderC_BINARY_DIR:STATIC=/home/gwi/桌面/passport/QiLin_WI_A/PassportR
 
 //Value Computed by CMake
 PassportReaderC_SOURCE_DIR:STATIC=/home/gwi/桌面/passport/QiLin_WI_A/PassportReader
-
-//Dependencies for the target
-cardRecog_LIB_DEPENDS:STATIC=general;tensorflow;general;opencv_calib3d;general;opencv_core;general;opencv_dnn;general;opencv_features2d;general;opencv_flann;general;opencv_gapi;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;
 
 //Dependencies for the target
 getData_LIB_DEPENDS:STATIC=general;libImageProcess;general;libChip;general;libLED;general;libcardRecog;general;libwlt;general;libCheck;general;opencv_calib3d;general;opencv_core;general;opencv_dnn;general;opencv_features2d;general;opencv_flann;general;opencv_gapi;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;general;/home/gwi/桌面/passport/QiLin_WI_A/install/lib/tensorflow/libtensorflow_cc.so;general;/home/gwi/桌面/passport/QiLin_WI_A/install/lib/tensorflow/libtensorflow_framework.so;general;/home/gwi/桌面/passport/QiLin_WI_A/install/thirdParty/protobuf/lib/libprotobuf.a;general;usb-1.0;general;openjp2;general;glog;general;crypto;

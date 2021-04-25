@@ -254,6 +254,10 @@ ContentCheck.h
 PatternData.h
 /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/libCheck/src/PatternData.h
 
+/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/libCheck/src/ResultWeight.cpp
+ResultWeight.h
+/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/libCheck/src/ResultWeight.h
+
 /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/libCheck/src/SAU.cpp
 ContentCheck.h
 /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/libCheck/src/ContentCheck.h

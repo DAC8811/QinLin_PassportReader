@@ -14,31 +14,36 @@
 
 #include "libChip.h"
 //#include "mrz.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <dlfcn.h>
+#include <unistd.h>
+#include <map>
+
 #include "MRTD.h"
 #include "ImageProcess.h"
 #include "utils_zhangdi.h"
 #include "pyContentCheck.h"
 
 #include "getData.h"
-#include <dlfcn.h>
 
 
+#include"json/json.h"
 #include "WltRS.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdbool.h>
-#include<unistd.h>
+
+
 #include<sys/time.h>
-#include <signal.h>
-#include <stdlib.h>
+
 
 #include "cardRecog.h"
 //#include <opencv2/opencv.hpp>
 #include "cardInfoRecog.h"
 
 #include "utils.h"
-#include"json/json.h"
-#include <map>
+
 
 EXPORT_FUN
 char LOGBUFFER[300];
@@ -531,4 +536,10 @@ extern "C" __attribute__((visibility("default"))) const char* getSFZImage(){
 
 extern "C" __attribute__((visibility("default"))) int findOrientation() {
         return Orientation;
+}
+
+extern "C" __attribute__((visibility("default"))) int IDcardReadInfoAndFinger(unsigned char *sInfo, unsigned int * sLength, unsigned char *cpPhoto,
+                                                                              unsigned int *ipLength, unsigned char *cpFinger,
+                                                                              unsigned int *ipFLength,unsigned char* idType){
+    return IDcardReadWithFinger(sInfo, sLength, cpPhoto, ipLength, cpFinger, ipFLength,idType);
 }

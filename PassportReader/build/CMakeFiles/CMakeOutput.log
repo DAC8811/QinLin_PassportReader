@@ -2,7 +2,7 @@ The target system is: Linux -  - aarch64
 The host system is: Linux - 4.4.131-20200429.kylin.desktop-generic - aarch64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/gcc 
-Build flags: -O3;-DNDEBUG;-ffast-math;-ftree-vectorize;-fno-lto;-fPIC;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-fvisibility=hidden
+Build flags: 
 Id flags:  
 
 The output was:
@@ -15,7 +15,7 @@ The C compiler identification is GNU, found in "/home/gwi/桌面/passport/QiLin_
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/g++ 
-Build flags: -O3;-DNDEBUG;-ffast-math;-ftree-vectorize;-std=gnu++11;-fexceptions;-fno-lto;-fPIC;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-fvisibility=hidden
+Build flags: 
 Id flags:  
 
 The output was:
@@ -29,13 +29,13 @@ The CXX compiler identification is GNU, found in "/home/gwi/桌面/passport/QiLi
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_25c78/fast && /usr/bin/make -f CMakeFiles/cmTC_25c78.dir/build.make CMakeFiles/cmTC_25c78.dir/build
+Run Build Command(s):/usr/bin/make cmTC_8523c/fast && /usr/bin/make -f CMakeFiles/cmTC_8523c.dir/build.make CMakeFiles/cmTC_8523c.dir/build
 make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25c78.dir/testCCompiler.c.o
-/usr/bin/gcc   -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -o CMakeFiles/cmTC_25c78.dir/testCCompiler.c.o   -c /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_25c78
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c78.dir/link.txt --verbose=1
-/usr/bin/gcc -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden     CMakeFiles/cmTC_25c78.dir/testCCompiler.c.o  -o cmTC_25c78 
+Building C object CMakeFiles/cmTC_8523c.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_8523c.dir/testCCompiler.c.o   -c /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8523c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8523c.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_8523c.dir/testCCompiler.c.o  -o cmTC_8523c 
 make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
 
 
@@ -43,18 +43,18 @@ make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e9f0b/fast && /usr/bin/make -f CMakeFiles/cmTC_e9f0b.dir/build.make CMakeFiles/cmTC_e9f0b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_e5e30/fast && /usr/bin/make -f CMakeFiles/cmTC_e5e30.dir/build.make CMakeFiles/cmTC_e5e30.dir/build
 make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc   -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -v -o CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6kord1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) 
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D NDEBUG /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o -O3 -version -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -fvisibility=hidden -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccFxjWFJ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccZWILh2.s
 GNU C11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -72,15 +72,15 @@ GNU C11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-li
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6525ef518d84f3e056de77d83111ff00
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o /tmp/ccFxjWFJ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o /tmp/ccZWILh2.s
 GNU assembler version 2.26.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-Linking C executable cmTC_e9f0b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f0b.dir/link.txt --verbose=1
-/usr/bin/gcc -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -v CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o  -o cmTC_e9f0b 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_e5e30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e30.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o  -o cmTC_e5e30 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper
@@ -90,8 +90,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'cmTC_e9f0b' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -fno-lto --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e9f0b /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. --gc-sections CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5e30' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc18Uxw4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e5e30 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
 
 
@@ -117,18 +117,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e9f0b/fast && /usr/bin/make -f CMakeFiles/cmTC_e9f0b.dir/build.make CMakeFiles/cmTC_e9f0b.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e5e30/fast && /usr/bin/make -f CMakeFiles/cmTC_e5e30.dir/build.make CMakeFiles/cmTC_e5e30.dir/build]
   ignore line: [make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc   -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl --gc-sections -fvisibility=hidden    -v -o CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6kord1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/5/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D NDEBUG /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o -O3 -version -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -fvisibility=hidden -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccFxjWFJ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/5/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccZWILh2.s]
   ignore line: [GNU C11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -146,15 +146,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6525ef518d84f3e056de77d83111ff00]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o /tmp/ccFxjWFJ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o /tmp/ccZWILh2.s]
   ignore line: [GNU assembler version 2.26.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking C executable cmTC_e9f0b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f0b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc -O3 -DNDEBUG -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl --gc-sections -fvisibility=hidden    -v CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o  -o cmTC_e9f0b ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_e5e30]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e30.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o  -o cmTC_e5e30 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper]
@@ -164,10 +164,18 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'cmTC_e9f0b' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -fno-lto --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e9f0b /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. --gc-sections CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5e30' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc18Uxw4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e5e30 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/collect2] ==> ignore
-    arg [-fno-lto] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc18Uxw4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -181,7 +189,7 @@ Parsed C implicit link information from above output:
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e9f0b] ==> ignore
+    arg [cmTC_e5e30] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -193,8 +201,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/5/../../..]
-    arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_e9f0b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e5e30.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -204,7 +211,6 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtend.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/5] ==> [/usr/lib/gcc/aarch64-linux-gnu/5]
@@ -223,13 +229,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1d24d/fast && /usr/bin/make -f CMakeFiles/cmTC_1d24d.dir/build.make CMakeFiles/cmTC_1d24d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d18b2/fast && /usr/bin/make -f CMakeFiles/cmTC_d18b2.dir/build.make CMakeFiles/cmTC_d18b2.dir/build
 make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1d24d.dir/testCXXCompiler.cxx.o
-/usr/bin/g++    -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -o CMakeFiles/cmTC_1d24d.dir/testCXXCompiler.cxx.o -c /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1d24d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d24d.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden     CMakeFiles/cmTC_1d24d.dir/testCXXCompiler.cxx.o  -o cmTC_1d24d 
+Building CXX object CMakeFiles/cmTC_d18b2.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_d18b2.dir/testCXXCompiler.cxx.o -c /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d18b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d18b2.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_d18b2.dir/testCXXCompiler.cxx.o  -o cmTC_d18b2 
 make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
 
 
@@ -237,19 +243,19 @@ make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_00e2a/fast && /usr/bin/make -f CMakeFiles/cmTC_00e2a.dir/build.make CMakeFiles/cmTC_00e2a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_e9f82/fast && /usr/bin/make -f CMakeFiles/cmTC_e9f82.dir/build.make CMakeFiles/cmTC_e9f82.dir/build
 make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++    -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -v -o CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -v -o CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6kord1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) 
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D NDEBUG /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -O3 -std=gnu++11 -version -ffast-math -ftree-vectorize -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -fvisibility=hidden -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTD0Vwd.s
-GNU C++11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cco04ujk.s
+GNU C++ (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/5"
@@ -266,19 +272,19 @@ ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/5/../../../../aar
  /usr/include/aarch64-linux-gnu
  /usr/include
 End of search list.
-GNU C++11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)
+GNU C++ (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6c9896931323bc098ca000563ee070dd
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTD0Vwd.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o /tmp/cco04ujk.s
 GNU assembler version 2.26.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-Linking CXX executable cmTC_00e2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e2a.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections -fvisibility=hidden    -v CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_00e2a 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_e9f82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f82.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e9f82 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper
@@ -288,8 +294,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'cmTC_00e2a' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -fno-lto --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_00e2a /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. --gc-sections CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9f82' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccektaGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e9f82 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp'
 
 
@@ -321,19 +327,19 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_00e2a/fast && /usr/bin/make -f CMakeFiles/cmTC_00e2a.dir/build.make CMakeFiles/cmTC_00e2a.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e9f82/fast && /usr/bin/make -f CMakeFiles/cmTC_e9f82.dir/build.make CMakeFiles/cmTC_e9f82.dir/build]
   ignore line: [make[1]: Entering directory '/home/gwi/桌面/passport/QiLin_WI_A/PassportReader/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++    -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl --gc-sections -fvisibility=hidden    -v -o CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -v -o CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 5.4.0-6kord1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-arm64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-arm64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-arm64 --with-arch-directory=aarch64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/5/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D NDEBUG /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -O3 -std=gnu++11 -version -ffast-math -ftree-vectorize -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -fvisibility=hidden -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTD0Vwd.s]
-  ignore line: [GNU C++11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/5/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cco04ujk.s]
+  ignore line: [GNU C++ (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/5"]
@@ -350,19 +356,19 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/aarch64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++11 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)]
+  ignore line: [GNU C++ (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) version 5.4.0 20160609 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6c9896931323bc098ca000563ee070dd]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTD0Vwd.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o /tmp/cco04ujk.s]
   ignore line: [GNU assembler version 2.26.1 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking CXX executable cmTC_00e2a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e2a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++  -O3 -DNDEBUG -ffast-math -ftree-vectorize -std=gnu++11 -fexceptions -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl --gc-sections -fvisibility=hidden    -v CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_00e2a ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_e9f82]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f82.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e9f82 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper]
@@ -372,10 +378,18 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6kord1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/5/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-ffast-math' '-ftree-vectorize' '-std=gnu++11' '-fexceptions' '-fno-lto' '-fPIC' '-fdata-sections' '-ffunction-sections' '-fvisibility=hidden' '-v' '-o' 'cmTC_00e2a' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -fno-lto --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_00e2a /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. --gc-sections CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9f82' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccektaGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -z relro -o cmTC_e9f82 /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/aarch64-linux-gnu/5 -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/5/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/5/../../.. CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/5/crtend.o /usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/collect2] ==> ignore
-    arg [-fno-lto] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccektaGm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -389,7 +403,7 @@ Parsed CXX implicit link information from above output:
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_00e2a] ==> ignore
+    arg [cmTC_e9f82] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -401,8 +415,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/5/../../..]
-    arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_00e2a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e9f82.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -410,7 +423,6 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtfastmath.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/crtend.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/5/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/5] ==> [/usr/lib/gcc/aarch64-linux-gnu/5]

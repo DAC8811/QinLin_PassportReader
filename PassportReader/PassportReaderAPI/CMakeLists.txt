@@ -3,10 +3,9 @@ cmake_minimum_required(VERSION 3.4.1)
 
 file(GLOB source_files
         "./src/*.cpp"
-		"./src/json/*.cpp"
+        "./src/json/*.cpp"
         )
-
-add_library(getData SHARED ${source_files})
+add_library(getData SHARED ${source_files} )
 
 target_include_directories(getData BEFORE PRIVATE include)
 

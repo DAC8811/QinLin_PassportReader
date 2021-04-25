@@ -26,7 +26,7 @@ else ()
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}   -fPIC -DNDEBUG  -O3 -ffast-math -ftree-vectorize -fno-lto -fdata-sections -ffunction-sections -Wl,--gc-sections ")# 
     find_package(OpenCV 4 REQUIRED)
     find_package(OpenSSL REQUIRED)
-	find_package(OpenJPEG REQUIRED)
+    find_package(OpenJPEG REQUIRED)
     #find_path(LIBUSB_INCLUDE_DIR
     #    NAMES libusb.h
     #    PATH_SUFFIXES "include" "libusb" "libusb-1.0")
